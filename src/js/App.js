@@ -12,9 +12,7 @@ class App extends React.Component {
             properties: data.properties,
             activeProperty: data.properties[0]
         }
-        this.setActiveProperty = this
-            .setActiveProperty
-            .bind(this);
+        this.setActiveProperty = this.setActiveProperty.bind(this);
     }
 
     setActiveProperty(property) {

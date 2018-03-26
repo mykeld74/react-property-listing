@@ -22,7 +22,7 @@ const Card = ({property, activeProperty}) => {
         <img src={picture} alt={city}/>
         <p className="price">{price}</p>
         <div className="details">
-            <span className="index">{1}</span>
+            <span className="index">{}</span>
             <p className="location">
                 {city}<br/>{address}
             </p>
